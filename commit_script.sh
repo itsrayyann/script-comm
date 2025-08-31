@@ -59,5 +59,5 @@ while [[ "$current_date" < "$end_date" || "$current_date" == "$end_date" ]]; do
     current_date=$(gdate -I -d "$current_date + 1 day")
 done
 
-git push origin main
+git push origin master
 echo "Done! Pushed all commits to GitHub."
